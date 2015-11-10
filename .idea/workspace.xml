@@ -118,10 +118,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IFPaserTest.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="IFPaserTest.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/IFPaserTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.36563876">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -131,11 +131,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LexerTest.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/LexerTest.scala">
+          <file leaf-file-name="LexerTest.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/LexerTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.50660795">
+                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#62#84#0" expanded="true" />
@@ -178,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/BasicParserTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/ParserTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/IFPaserTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/LexerTest.scala" />
       </list>
     </option>
   </component>
@@ -834,12 +835,12 @@
       <created>1447122111803</created>
       <option name="number" value="Default" />
       <updated>1447122111803</updated>
-      <workItem from="1447122113003" duration="25057000" />
+      <workItem from="1447122113003" duration="25122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25057000" />
+    <option name="totallyTimeSpent" value="25122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1849" y="-23" width="2014" height="1150" extended-state="0" />
@@ -972,17 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/LexerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#62#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/ParserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -996,11 +986,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/IFPaserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36563876">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/LexerTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50660795">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#62#84#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,7 +5,7 @@
 package PCF.Tests
 
 import PCF.Tokenizer._
-import org.scalatest.{ShouldMatchers, FlatSpec}
+import org.scalatest.{FlatSpec, ShouldMatchers}
 
 class LexerTest extends FlatSpec with ShouldMatchers {
 

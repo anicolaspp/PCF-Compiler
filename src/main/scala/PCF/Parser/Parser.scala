@@ -40,6 +40,12 @@ object Parser {
     case FUNTOK()::IDTOK(x)::tok::left    =>  (ERROR("Expected '->' after FUN"), List(EOF()))
     case FUNTOK()::tok::left              =>  (ERROR("Expecting identifier after FUN"), List(EOF()))
 
+    case LPARENTOK()::left                => parseExpression(left) match {
+      case (ERROR(reason), left)                =>  (ERROR("After '(' an valid expression has to follow"), left)
+      case (exp, RPARENT()::left)                =>  (exp, left)
+      case (exp, tok::left)                     =>  (ERROR("After ')' expresion"), List(EOF()))
+    }
+
     case tok::toks            =>  (ERROR("Expected Expression but found: " + tok), List(EOF()))
   }
 

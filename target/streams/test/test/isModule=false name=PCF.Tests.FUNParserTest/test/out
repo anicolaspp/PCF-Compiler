@@ -2,3 +2,5 @@
 [0m[[0minfo[0m] [0m[32mParser[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return ERROR if FUN has not body[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return FUN TERM when body is present[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when ARROW is missing[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when ID is missing[0m[0m

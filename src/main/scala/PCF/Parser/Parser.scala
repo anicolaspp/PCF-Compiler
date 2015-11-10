@@ -37,6 +37,8 @@ object Parser {
       case (ERROR(reason), left)          =>  (ERROR("Expecting FUN body"), left)
       case (body, left)                   =>  (FUNC(x, body), left)
     }
+    case FUNTOK()::IDTOK(x)::tok::left    =>  (ERROR("Expected '->' after FUN"), List(EOF()))
+    case FUNTOK()::tok::left              =>  (ERROR("Expecting identifier after FUN"), List(EOF()))
 
     case tok::toks            =>  (ERROR("Expected Expression but found: " + tok), List(EOF()))
   }

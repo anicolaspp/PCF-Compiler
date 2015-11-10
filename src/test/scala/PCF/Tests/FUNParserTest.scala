@@ -25,4 +25,22 @@ class FUNParserTest extends FlatSpec with ShouldMatchers {
 
     ast should be (FUNC("x", ID("a")))
   }
+
+  it should "return ERROR when ARROW is missing" in {
+    val sourceCode = "fun x b a"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expected '->' after FUN"))
+  }
+
+  it should "return ERROR when ID is missing" in {
+    val sourceCode = "fun -> b"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expecting identifier after FUN"))
+  }
 }
+
+

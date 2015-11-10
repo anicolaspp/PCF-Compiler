@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mLETParserTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mParser[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when LET has not body[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return FUN TERM when body is present[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when IN in missing[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when inner expression cannot be parsed[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when '=' is missing[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ERROR when varialble is missing[0m[0m

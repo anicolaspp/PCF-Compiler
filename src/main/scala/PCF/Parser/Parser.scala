@@ -8,6 +8,24 @@ import PCF.Parser.AST._
 import PCF.Tokenizer._
 import PCF.Pipes.IPipe._
 
+// This is the grammar of PCF
+
+// Exp ::=  x | n                               case (1)
+//            | true                            case (2)
+//            | false                           case (3)
+//            | succ                            case (4)
+//            | pred                            case (5)
+//            | iszero                          case (6)
+//            | if Exps then Exps else Exps     case (7)
+//            | fun x -> Exps                   case (8)
+//            | rec x -> Exps                   case (9)
+//            | (Exps)                          case (10)
+//            | let x = Exps in Exps            case (11)    translates to (fun x -> b)(a)
+//            |
+// Exps ::= Exps Exp | Exp
+//
+// We resolve the ambiguity in the grammar by making concatenation
+// (i.e. function application) bind tighter than if, fun, rec, and let.
 
 object Parser {
 
@@ -46,6 +64,17 @@ object Parser {
     }
     case RECTOK()::IDTOK(x)::tok::left        =>  (ERROR("Expected '->' after REC"), List(EOF()))
     case RECTOK()::tok::left                  =>  (ERROR("Expecting identifier after REC"), List(EOF()))
+
+    case LETTOK()::IDTOK(x)::EQUALTOK()::left =>  parseExpression(left) match {
+      case (ERROR(reason), left)                  =>  (ERROR("Expecting LET body"), left)
+      case (exp, INTOK()::left)                     =>  parseExpression(left) match {
+        case (ERROR(reason), left)                    =>  (ERROR("LET requires valid expression after IN"), left)
+        case (freeExp, left)                          =>  ((APP(FUNC(x, freeExp), exp)), left)
+      }
+      case (exp, tok::left)                       =>  (ERROR("LET requires IN"), left)
+    }
+    case LETTOK()::IDTOK(x)::left             => (ERROR("LET requires '=' after variable"), left)
+    case LETTOK()::left                       => (ERROR("LET requires variable definition"), left)
 
     case LPARENTOK()::left                    => parseExpression(left) match {
       case (ERROR(reason), left)                  =>  (ERROR("After '(' an valid expression has to follow"), left)

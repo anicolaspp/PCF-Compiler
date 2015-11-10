@@ -41,8 +41,8 @@
       <file leaf-file-name="Lexer.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4642857">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5467033">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -703,12 +703,12 @@
       <created>1447122111803</created>
       <option name="number" value="Default" />
       <updated>1447122111803</updated>
-      <workItem from="1447122113003" duration="9566000" />
+      <workItem from="1447122113003" duration="9597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9566000" />
+    <option name="totallyTimeSpent" value="9597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="33" width="1390" height="848" extended-state="0" />
@@ -789,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4642857">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5467033">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

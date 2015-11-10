@@ -33,6 +33,11 @@ object Parser {
       case (guard, tok)               =>  (ERROR("IF requires an TERM as guard"), List(EOF()))
     }
 
+    case FUNTOK()::IDTOK(x)::ARROWTOK():: left  =>  parseExpression(left) match {
+      case (ERROR(reason), left)          =>  (ERROR("Expecting FUN body"), left)
+      case (body, left)                   =>  (FUNC(x, body), left)
+    }
+
     case tok::toks            =>  (ERROR("Expected Expression but found: " + tok), List(EOF()))
   }
 

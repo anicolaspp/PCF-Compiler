@@ -3,12 +3,15 @@
  */
 
 
+import PCF.Parser.Parser
 import PCF.Tokenizer.Lexer
 
 object App {
   def main(args: Array[String]) {
-    val source = "5"
+    val source = "fun x -> "
 
-    Lexer.lexerStr(source).map(println)
+   val ast = Parser.parseStr(source)
+
+    println(ast)
   }
 }

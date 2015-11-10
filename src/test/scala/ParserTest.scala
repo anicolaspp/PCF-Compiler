@@ -85,8 +85,6 @@ class IFPaserTest extends FlatSpec with ShouldMatchers{
       ast should be (ERROR("IF requires an TERM as guard"))
   }
 
-
-
   it should "return ERROR when IF THEN (NONTERM)" in {
     val sourceCode = "if x then ;"
 
@@ -123,5 +121,23 @@ class IFPaserTest extends FlatSpec with ShouldMatchers{
     val sourceCode = "if a"
 
     val ast = Parser.parseStr(sourceCode)
+  }
+}
+
+class FUNParserTest extends FlatSpec with ShouldMatchers {
+  "Parser" should "return ERROR if FUN has not body" in {
+    val sourceCode = "fun x -> "
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expecting FUN body"))
+  }
+
+  it should "return FUN TERM when body is present" in {
+    val sourceCode = "fun x -> a"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (FUNC("x", ID("a")))
   }
 }

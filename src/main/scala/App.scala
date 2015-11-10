@@ -3,7 +3,6 @@
  */
 
 
-import PCF.Tokenizer
 import PCF.Tokenizer.Lexer
 
 object App {

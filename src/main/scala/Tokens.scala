@@ -95,7 +95,7 @@ object  Lexer {
 
   def lexerStr(sourceCode: String): List[TOK] = sourceCode |> explode |> tokenize
 
-  def lexerFile(fileName: String): List[TOK] = scala.io.Source.fromFile(fileName).mkString |> explode |> tokenize
+  def lexerFile(fileName: String): List[TOK] = scala.io.Source.fromFile(fileName).mkString |> lexerStr
 }
 
 

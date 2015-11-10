@@ -10,7 +10,7 @@ import org.scalatest.{FlatSpec, ShouldMatchers}
 
 
 class FUNParserTest extends FlatSpec with ShouldMatchers {
-  "Parser" should "return ERROR if FUN has not body" in {
+  "Parser" should "return ERROR when FUN has not body" in {
     val sourceCode = "fun x -> "
 
     val ast = Parser.parseStr(sourceCode)
@@ -43,5 +43,39 @@ class FUNParserTest extends FlatSpec with ShouldMatchers {
   }
 }
 
+class RECParserTest extends FlatSpec with ShouldMatchers {
+  "Parser" should "return ERROR when REC has not body" in {
+    val sourceCode = "rec x -> "
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expecting REC body"))
+  }
+
+  it should "return REC TERM when body is present" in {
+    val sourceCode = "rec x -> a"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be(REC("x", ID("a")))
+  }
+
+  it should "return ERROR when ARROW is missing" in {
+    val sourceCode = "rec x b a"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expected '->' after REC"))
+  }
+
+
+  it should "return ERROR when ID is missing" in {
+    val sourceCode = "rec -> b"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (ERROR("Expecting identifier after REC"))
+  }
+}
 
 

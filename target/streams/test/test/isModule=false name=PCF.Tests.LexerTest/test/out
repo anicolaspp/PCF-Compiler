@@ -9,3 +9,7 @@
 [0m[[0minfo[0m] [0m[32m- should return PREDTOK with pred[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return ISZERO with iszero[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return IFTOK when if else then[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return FUNTOK when fun[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return RECTOK when rec[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return L-R PARENTOK when (...)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should LET when asign[0m[0m

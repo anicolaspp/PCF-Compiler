@@ -86,4 +86,36 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     tokens should be (List(IFTOK(),IDTOK("x"),THENTOK(), IDTOK("x"), ELSETOK(), IDTOK("x"), EOF()))
   }
+
+  it should "return FUNTOK when fun" in {
+    val sourceCode = "fun x -> y"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens should be (List(FUNTOK(), IDTOK("x"), EQUALTOK(), IDTOK("y"), EOF()))
+  }
+
+  it should "return RECTOK when rec" in {
+    val sourceCode = "rec x -> x"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens should be (List(RECTOK(), IDTOK("x"), EQUALTOK(), IDTOK("x"), EOF()))
+  }
+
+  it should "return L-R PARENTOK when (...)" in {
+    val sourceCode = "(x(y)z)"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens should be (List(LPARENTOK(), IDTOK("x"), LPARENTOK(), IDTOK("y"), RPARENT(), IDTOK("z"), RPARENT(), EOF()))
+  }
+
+  it should "LET when asign" in {
+    val sourceCode = "let x = 5"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens should be (List(LETTOK(), IDTOK("x"), EQUALTOK(), NUMTOK(5), EOF()))
+  }
 }

@@ -29,15 +29,15 @@ case class INTOK()extends TOK
 case class EOF() extends TOK
 
 object  Lexer {
-  def explode (s: String) = s.toCharArray.toList
+  private def explode (s: String) = s.toCharArray.toList
 
-  def isWhite(c: Char) =  c == ' ' || c == '\n' || c == '\r' || c == '\t'
+  private def isWhite(c: Char) =  c == ' ' || c == '\n' || c == '\r' || c == '\t'
 
-  def isAlpha(c: Char) = ('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')
+  private def isAlpha(c: Char) = ('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')
 
-  def isDigit(c: Char) = '0' <= c && c <= '9'
+  private def isDigit(c: Char) = '0' <= c && c <= '9'
 
-  def keyword(s: String): TOK = s match {
+  private def keyword(s: String): TOK = s match {
     case "true"   =>  TRUETOK()
     case "false"  =>  FALSETOK()
     case "succ"   =>  SUCCTOK()
@@ -53,17 +53,17 @@ object  Lexer {
     case ident    =>  IDTOK(ident)
   }
 
-  def getId(ident: String, l: List[Char]): (TOK, List[Char])  = l match {
+  private def getId(ident: String, l: List[Char]): (TOK, List[Char])  = l match {
     case c :: cs if (isAlpha(c) || isDigit(c))  =>  getId(ident + c, cs)
     case cs                                     =>  (keyword(ident), cs)
   }
 
-  def getNum(num: Int, l: List[Char]): (TOK, List[Char]) = l match {
+  private def getNum(num: Int, l: List[Char]): (TOK, List[Char]) = l match {
     case c :: cs if isDigit(c)    =>  getNum(10*num + c.toInt - 0, cs)
     case cs                       =>  (NUMTOK(num), cs)
   }
 
-  def getTok(l: List[Char]): (TOK, List[Char]) = l match {
+  private def getTok(l: List[Char]): (TOK, List[Char]) = l match {
     case Nil => (EOF(), List())
     case c :: cs if isWhite(c) => getTok(cs)
     case c :: cs if isAlpha(c) => getId(c.toString, cs)
@@ -85,7 +85,7 @@ object  Lexer {
     }
   }
 
-  def tokenize(cs: List[Char]): List[TOK] = {
+  private def tokenize(cs: List[Char]): List[TOK] = {
     def getToks(toks: List[TOK], cs: List[Char]): List[TOK] = getTok(cs) match {
       case (EOF(), cs) => (EOF() :: toks).reverse
       case (tok, cs) => getToks(tok :: toks, cs)

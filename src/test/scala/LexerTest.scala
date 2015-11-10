@@ -7,8 +7,6 @@ package PCF.Tests
 import PCF.Tokenizer._
 import org.scalatest.{ShouldMatchers, FlatSpec}
 
-
-
 class LexerTest extends FlatSpec with ShouldMatchers {
 
   "Lexer" should "return no tokens with empty source code" in {
@@ -111,7 +109,7 @@ class LexerTest extends FlatSpec with ShouldMatchers {
     tokens should be (List(LPARENTOK(), IDTOK("x"), LPARENTOK(), IDTOK("y"), RPARENT(), IDTOK("z"), RPARENT(), EOF()))
   }
 
-  it should "LET when asign" in {
+  it should "return LET when asign" in {
     val sourceCode = "let x = 5"
 
     val tokens = Lexer.lexerStr(sourceCode)
@@ -127,7 +125,7 @@ class LexerTest extends FlatSpec with ShouldMatchers {
     tokens.foreach(t => t.isInstanceOf[TOK] should be (true))
   }
 
-  it should "igone commented line" in {
+  it should "ignore commented line" in {
     val sourceCode = "rec x -> x\n#as;lkdfja;sldfkas\nsucc 5"
 
     val tokens = Lexer.lexerStr(sourceCode)

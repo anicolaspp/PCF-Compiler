@@ -82,8 +82,8 @@
           <file leaf-file-name="LexerTest.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/LexerTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.79611653">
-                  <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.9126214">
+                  <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#62#84#0" expanded="true" />
@@ -130,8 +130,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1820" />
-    <option name="y" value="-91" />
+    <option name="x" value="1877" />
+    <option name="y" value="-66" />
     <option name="width" value="1648" />
     <option name="height" value="1150" />
   </component>
@@ -774,15 +774,15 @@
       <created>1447122111803</created>
       <option name="number" value="Default" />
       <updated>1447122111803</updated>
-      <workItem from="1447122113003" duration="15085000" />
+      <workItem from="1447122113003" duration="15160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15085000" />
+    <option name="totallyTimeSpent" value="15160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1820" y="-91" width="1648" height="1150" extended-state="0" />
+    <frame x="1877" y="-66" width="1648" height="1150" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -899,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/LexerTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79611653">
-          <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.9126214">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#84#0" expanded="true" />

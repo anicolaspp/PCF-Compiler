@@ -1,0 +1,385 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+52 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App$$anonfun$main$1.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/IPipe$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/IPipe.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/Pipe$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/Pipe.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ARROWTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ARROWTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ELSETOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ELSETOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EOF$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EOF.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EQUALTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EQUALTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FALSETOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FALSETOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FUNTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FUNTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IDTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IDTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IFTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IFTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/INTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/INTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ISZERO$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ISZERO.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LETTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LETTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LPARENTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LPARENTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerFile$1.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerFile$2.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerStr$1.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerStr$2.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/NUMTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/NUMTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/PREDTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/PREDTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RECTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RECTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RPARENT$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RPARENT.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/SUCCTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/SUCCTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/THENTOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/THENTOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TOK.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TRUETOK$.class
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TRUETOK.class
+binary dependencies:
+6 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> /Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> /Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> /Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+52 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> App
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> App$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> App$$anonfun$main$1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> PCF.Pipes.IPipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> PCF.Pipes.IPipe$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> PCF.Pipes.Pipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> PCF.Pipes.Pipe$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ARROWTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ARROWTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ELSETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ELSETOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.EOF
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.EOF$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.EQUALTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.EQUALTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.FALSETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.FALSETOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.FUNTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.FUNTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.IDTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.IDTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.IFTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.IFTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.INTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.INTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ISZERO
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.ISZERO$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.LETTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.LETTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.LPARENTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.LPARENTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer$$anonfun$lexerFile$1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer$$anonfun$lexerFile$2
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer$$anonfun$lexerStr$1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.Lexer$$anonfun$lexerStr$2
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.NUMTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.NUMTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.PREDTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.PREDTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.RECTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.RECTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.RPARENT
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.RPARENT$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.SUCCTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.SUCCTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.THENTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.THENTOK$
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.TOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.TRUETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF.Tokenizer.TRUETOK$
+used names:
+138 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> <init>
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> AnyRef
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> App
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> Array
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> Lexer
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> List
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> PCF
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> Predef
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> String
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> Tokenizer
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> Unit
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> canBuildFrom
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> immutable
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> lexerStr
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> map
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> println
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> scala
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> source
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> <init>
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> AnyRef
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> B
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> Function1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> IPipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> PCF
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> Pipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> Pipes
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> T
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> _root_
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> a
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> apply
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> f
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> scala
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> v
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> &&
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> *
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> +
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> -
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ::
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> <=
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> <init>
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ==
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ARROWTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> AbstractFunction0
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> AbstractFunction1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> AnyRef
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Char
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Codec
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ELSETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> EOF
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> EQUALTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> FALSETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> FUNTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> IDTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> IFTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> INTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> IPipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ISZERO
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Int
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> LETTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> LPARENTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Lexer
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> List
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> NUMTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Nil
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> None
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PCF
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> PREDTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Pipes
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Predef
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Product
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> RECTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> RPARENT
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> SUCCTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ScalaRunTime
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Serializable
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Source
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Statics
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> String
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> THENTOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> TOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> TRUETOK
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Tokenizer
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> Tuple2
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> _1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> _2
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> _hashCode
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> _toString
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> asInstanceOf
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> c
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> charArrayOps
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> cs
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> cs1
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> eq
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> explode
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> fallbackSystemCodec
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> fileName
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> finalizeHash
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> fromFile
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> getId
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> getNum
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> getTok
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> getToks
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> head
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> id
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ident
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> immutable
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> io
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> isAlpha
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> isDigit
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> isInstanceOf
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> isWhite
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> keyword
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> l
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> mix
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> mkString
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ne
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> num
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> package
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> println
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> reverse
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> runtime
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> s
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> scala
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> skipLine
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> sourceCode
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toCharArray
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toInt
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toList
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toPipe
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toString
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> tok
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> tokenize
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> toks
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> typedProductIterator
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> value
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> x
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> |>
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> ||
+product stamps:
+52 items
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App$$anonfun$main$1.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App$.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/App.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/IPipe$.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/IPipe.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/Pipe$.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Pipes/Pipe.class -> lastModified(1447130520000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ARROWTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ARROWTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ELSETOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ELSETOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EOF$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EOF.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EQUALTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/EQUALTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FALSETOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FALSETOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FUNTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/FUNTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IDTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IDTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IFTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/IFTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/INTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/INTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ISZERO$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/ISZERO.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LETTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LETTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LPARENTOK$.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/LPARENTOK.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerFile$1.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerFile$2.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerStr$1.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$$anonfun$lexerStr$2.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/Lexer.class -> lastModified(1447130618000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/NUMTOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/NUMTOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/PREDTOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/PREDTOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RECTOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RECTOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RPARENT$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/RPARENT.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/SUCCTOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/SUCCTOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/THENTOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/THENTOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TOK.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TRUETOK$.class -> lastModified(1447130619000)
+/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes/PCF/Tokenizer/TRUETOK.class -> lastModified(1447130619000)
+source stamps:
+3 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> hash(bbd550c495a782e737ffb98a7189db2dccfdf44d)
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> hash(552e6dd3f837838a1f8ae12a3c3b21b0468f29cd)
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> hash(a5ce774db6a61f1571264a540533bcf4321033e1)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428689516000)
+/Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.runtime.AbstractFunction0
+internal apis:
+3 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAnsa16AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cK3SCgl0AAZub3RpZnlzcQB+AAz0bOlPdAAEd2FpdHNxAH4ADNGDgFZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAM9hPQbnQABmVxdWFsc3NxAH4ADDvBoRl0AAxhc0luc3RhbmNlT2ZzcQB+AAxXiDKvdAADQXBwc3EAfgAMaNYH03QADHN5bmNocm9uaXplZHNxAH4ADDzy7tF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMo9iagHQABG1haW5zcQB+AAxQ5t4TdAAJbm90aWZ5QWxsc3EAfgAMpikQQ3QADGlzSW5zdGFuY2VPZnNxAH4ADPoef4V0AAI9PXNxAH4ADJXxSQ10AAVjbG9uZXNxAH4ADNNKgLB0AAh0b1N0cmluZ3NxAH4ADFQ5mHB0AAIhPXNxAH4ADLeBt2J0AAhnZXRDbGFzc3NxAH4ADKIF4Qh0AAJuZXNxAH4ADOzIG010AAJlcXNxAH4ADB+7LbB0AAIjI3NxAH4ADNcvet90AAhmaW5hbGl6ZXNxAH4ADCZr+rh0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AGXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFl4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFgAcHNxAH4AXXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGFzcQB+AFgAcHNxAH4AXXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBgdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHJbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGBzcQB+AHF0AAVBcnJheXEAfgB3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHF0AAZTdHJpbmdzcQB+AHVzcQB+AHh1cQB+AHsAAAADc3EAfgB9dAAEamF2YXNxAH4AfXQABGxhbmdxAH4AgnNxAH4AWABwc3EAfgBddXEAfgA8AAAAAHNxAH4AWABwc3EAfgBddXEAfgCWAAAAAnNxAH4AcXQABk9iamVjdHEAfgCac3EAfgBxdAADQW55cQB+AHd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUO+zS4t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL25wZXJlei9JZGVhUHJvamVjdHMvUENGL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS71VDElaeC5zf/uYpxidstzP30TQ==
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAEWHuEAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwheGcYXQABnRvUGlwZXVxAH4ACQAAABhzcQB+AAuWSYkZdAAGbm90aWZ5c3EAfgAL7ckIuHQABFBpcGVzcQB+AAvGJ+eydAAEd2FpdHNxAH4AC/h/gW90AA0kYXNJbnN0YW5jZU9mc3EAfgALs4M07HQABmVxdWFsc3NxAH4AC5WSSX50AAJ8PnNxAH4AC0PEfAp0AAxhc0luc3RhbmNlT2ZzcQB+AAvI682cdAAFSVBpcGVzcQB+AAvpATUBdAAMc3luY2hyb25pemVkc3EAfgALQSCZrXQADSRpc0luc3RhbmNlT2ZzcQB+AAsWKjhKdAAJbm90aWZ5QWxsc3EAfgALI/deFXQADGlzSW5zdGFuY2VPZnNxAH4AC1lHlFl0AAY8aW5pdD5zcQB+AAtFlM4+dAAFYXBwbHlzcQB+AAuPRgwldAACPT1zcQB+AAvYVSZhdAAFY2xvbmVzcQB+AAui9NKzdAAIdG9TdHJpbmdzcQB+AAuXFGP2dAACIT1zcQB+AAvOrdaIdAAIZ2V0Q2xhc3NzcQB+AAsT+QvAdAACbmVzcQB+AAspPv+sdAACZXFzcQB+AAuoig5edAACIyNzcQB+AAtm+rRKdAAIZmluYWxpemVzcQB+AAuQF0nLdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAOUENGLlBpcGVzLlBpcGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcmdpVdvjcpBrAgAGWwALYW5ub3RhdGlvbnNxAH4ATkwAAmlkcQB+AAxMAApsb3dlckJvdW5kdAAQTHhzYnRpL2FwaS9UeXBlO1sADnR5cGVQYXJhbWV0ZXJzcQB+AEtMAAp1cHBlckJvdW5kcQB+AFxMAAh2YXJpYW5jZXQAFEx4c2J0aS9hcGkvVmFyaWFuY2U7eHB1cQB+AFQAAAAAdAAQUENGLlBpcGVzLlBpcGUuVHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdOb3RoaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBwdXEAfgBZAAAAAHNxAH4AYXQAA0FueXEAfgBpfnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACUludmFyaWFudH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4AeXQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZ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
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCswVDRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAPXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCLmcyx0AAdQUkVEVE9Lc3EAfgAM474MdnQABm5vdGlmeXNxAH4ADDtijzZ0AAlsZXhlckZpbGVzcQB+AAxw7JfVdAAFSUZUT0tzcQB+AAxxjcMDdAAGSVNaRVJPc3EAfgAMMeEjnnQAB1NVQ0NUT0tzcQB+AAxy+8/ZdAAEd2FpdHNxAH4ADF+3trl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMA5s51nQABmdldFRva3NxAH4ADEAl8PB0AAxwcm9kdWN0QXJpdHlzcQB+AAxV9UwNdAAGZXF1YWxzc3EAfgAMe+d1w3QABk5VTVRPS3NxAH4ADDne5st0AAlMUEFSRU5UT0tzcQB+AAxiIA17dAAMYXNJbnN0YW5jZU9mc3EAfgAMmO5PEHQACHRva2VuaXplc3EAfgAMpE87H3QABmdldE51bXNxAH4ADMsGv/h0AAdpc0RpZ2l0c3EAfgAM6hcuu3QAB2lzV2hpdGVzcQB+AAz1Lp3udAAMc3luY2hyb25pemVkc3EAfgAMWj4gxXQACEVRVUFMVE9Lc3EAfgAMLibwZXQAB1RIRU5UT0tzcQB+AAzxu3wLdAANJGlzSW5zdGFuY2VPZnNxAH4ADPS/mGR0AAhjYW5FcXVhbHNxAH4ADNhfuY90AAZGVU5UT0tzcQB+AAzk4CqtdAAIbGV4ZXJTdHJzcQB+AAyzuS1QdAANcHJvZHVjdFByZWZpeHNxAH4ADBXsK4J0AAdrZXl3b3Jkc3EAfgAMcGJ1E3QACW5vdGlmeUFsbHNxAH4ADE6LyFV0AAVJRFRPS3NxAH4ADNRlRGJ0AAdpc0FscGhhc3EAfgAM1Yur03QADGlzSW5zdGFuY2VPZnNxAH4ADDQXyrl0AAhGQUxTRVRPS3NxAH4ADNtk5YV0AAZMRVRUT0tzcQB+AAxl44y7dAAGPGluaXQ+c3EAfgAMPNMjmHQAAmlkc3EAfgAM2Gzh73QAB1RSVUVUT0tzcQB+AAzVLrP9dAADRU9Gc3EAfgAM9S0rjnQAB2V4cGxvZGVzcQB+AAwlXU53dAACPT1zcQB+AAzTe3aDdAAFY2xvbmVzcQB+AAy7vOq5dAAHUlBBUkVOVHNxAH4ADFCiqnN0AAZSRUNUT0tzcQB+AAz6zu38dAAEY29weXNxAH4ADClq9SV0AAh0b1N0cmluZ3NxAH4ADOHOkAx0AAIhPXNxAH4ADOp7wit0AAhnZXRDbGFzc3NxAH4ADM7o5AN0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADEOfITB0AAdFTFNFVE9Lc3EAfgAMJCARt3QABUxleGVyc3EAfgAM/kFDB3QAAm5lc3EAfgAMBT2ZmXQAA1RPS3NxAH4ADEEmIyt0AAVJTlRPS3NxAH4ADNFYW1Z0AAVnZXRJZHNxAH4ADHbopil0AAV2YWx1ZXNxAH4ADHiJPtB0AAJlcXNxAH4ADNF2iCt0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyVz87hdAAIQVJST1dUT0tzcQB+AAxnD9gddAACIyNzcQB+AAxpdoKjdAAIZmluYWxpemVzcQB+AAy9rw04dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwQgR4NdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAVc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAARUENGLlRva2VuaXplci5UT0t1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AqQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AkUwACWluaGVyaXRlZHEAfgCRTAAHcGFyZW50c3EAfgCReHEAfgCwc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ar3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ar3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AyHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AyXNxAH4AvHQAA0FueXNxAH4AwHNxAH4Aw3VxAH4AxgAAAAJzcQB+AMh0AAVzY2FsYXEAfgDPcHBzcQB+AI5xAH4Am3VxAH4AnAAAAABzcQB+AJ4AdAATUENGLlRva2VuaXplci5JRFRPS3VxAH4AoQAAAABxAH4ApXVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3NxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+ALoAAAAHc3EAfgC8dAAMU2VyaWFsaXphYmxlc3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHEAfgDWcQB+AM9zcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHQAAmlvcQB+AM9zcQB+ALx0AAdQcm9kdWN0cQB+AOhzcQB+ALx0AAZFcXVhbHNxAH4A6HNxAH4AvHQAA1RPS3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMh0AANQQ0ZzcQB+AMh0AAlUb2tlbml6ZXJxAH4Az3NxAH4AvHEAfgC/c3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIcQB+AM1xAH4Az3NxAH4AvHEAfgDRcQB+AOhwcHNxAH4AjnEAfgCbdXEAfgCcAAAAAHNxAH4AngB0ABRQQ0YuVG9rZW5pemVyLk5VTVRPS3VxAH4AoQAAAABxAH4ApXVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3NxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+ALoAAAAHc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAACc3EAfgDIcQB+ANZxAH4Az3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIdAACaW9xAH4Az3NxAH4AvHEAfgD0cQB+ARdzcQB+ALx0AAZFcXVhbHNxAH4BF3NxAH4AvHQAA1RPS3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMh0AANQQ0ZzcQB+AMh0AAlUb2tlbml6ZXJxAH4Az3NxAH4AvHEAfgC/c3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIcQB+AM1xAH4Az3NxAH4AvHEAfgDRcQB+ARdwcHNxAH4AjnEAfgCbdXEAfgCcAAAAAHNxAH4AngB0ABVQQ0YuVG9rZW5pemVyLlRSVUVUT0t1cQB+AKEAAAAAcQB+AKV1cQB+AKcAAAAAc3EAfgCpAXEAfgCxcHNxAH4AqQFzcQB+ALNzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgC6AAAAB3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHEAfgDWcQB+AM9zcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHQAAmlvcQB+AM9zcQB+ALxxAH4A9HEAfgFFc3EAfgC8dAAGRXF1YWxzcQB+AUVzcQB+ALx0AANUT0tzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIdAADUENGc3EAfgDIdAAJVG9rZW5pemVycQB+AM9zcQB+ALxxAH4Av3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHEAfgDNcQB+AM9zcQB+ALxxAH4A0XEAfgFFcHBzcQB+AI5xAH4Am3VxAH4AnAAAAABzcQB+AJ4AdAAWUENGLlRva2VuaXplci5GQUxTRVRPS3VxAH4AoQAAAABxAH4ApXVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3NxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+ALoAAAAHc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAACc3EAfgDIcQB+ANZxAH4Az3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIdAACaW9xAH4Az3NxAH4AvHEAfgD0cQB+AXNzcQB+ALx0AAZFcXVhbHNxAH4Bc3NxAH4AvHQAA1RPS3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMh0AANQQ0ZzcQB+AMh0AAlUb2tlbml6ZXJxAH4Az3NxAH4AvHEAfgC/c3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIcQB+AM1xAH4Az3NxAH4AvHEAfgDRcQB+AXNwcHNxAH4AjnEAfgCbdXEAfgCcAAAAAHNxAH4AngB0ABVQQ0YuVG9rZW5pemVyLlNVQ0NUT0t1cQB+AKEAAAAAcQB+AKV1cQB+AKcAAAAAc3EAfgCpAXEAfgCxcHNxAH4AqQFzcQB+ALNzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgC6AAAAB3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHEAfgDWcQB+AM9zcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHQAAmlvcQB+AM9zcQB+ALxxAH4A9HEAfgGhc3EAfgC8dAAGRXF1YWxzcQB+AaFzcQB+ALx0AANUT0tzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIdAADUENGc3EAfgDIdAAJVG9rZW5pemVycQB+AM9zcQB+ALxxAH4Av3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHEAfgDNcQB+AM9zcQB+ALxxAH4A0XEAfgGhcHBzcQB+AI5xAH4Am3VxAH4AnAAAAABzcQB+AJ4AdAAVUENGLlRva2VuaXplci5QUkVEVE9LdXEAfgChAAAAAHEAfgCldXEAfgCnAAAAAHNxAH4AqQFxAH4AsXBzcQB+AKkBc3EAfgCzc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AugAAAAdzcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAAJzcQB+AMhxAH4A1nEAfgDPc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMh0AAJpb3EAfgDPc3EAfgC8cQB+APRxAH4Bz3NxAH4AvHQABkVxdWFsc3EAfgHPc3EAfgC8dAADVE9Lc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHQAA1BDRnNxAH4AyHQACVRva2VuaXplcnEAfgDPc3EAfgC8cQB+AL9zcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMhxAH4AzXEAfgDPc3EAfgC8cQB+ANFxAH4Bz3Bwc3EAfgCOcQB+AJt1cQB+AJwAAAAAc3EAfgCeAHQAFFBDRi5Ub2tlbml6ZXIuSVNaRVJPdXEAfgChAAAAAHEAfgCldXEAfgCnAAAAAHNxAH4AqQFxAH4AsXBzcQB+AKkBc3EAfgCzc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AugAAAAdzcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAAJzcQB+AMhxAH4A1nEAfgDPc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMh0AAJpb3EAfgDPc3EAfgC8cQB+APRxAH4B/XNxAH4AvHQABkVxdWFsc3EAfgH9c3EAfgC8dAADVE9Lc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHQAA1BDRnNxAH4AyHQACVRva2VuaXplcnEAfgDPc3EAfgC8cQB+AL9zcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMhxAH4AzXEAfgDPc3EAfgC8cQB+ANFxAH4B/XBwc3EAfgCOcQB+AJt1cQB+AJwAAAAAc3EAfgCeAHQAE1BDRi5Ub2tlbml6ZXIuSUZUT0t1cQB+AKEAAAAAcQB+AKV1cQB+AKcAAAAAc3EAfgCpAXEAfgCxcHNxAH4AqQFzcQB+ALNzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgC6AAAAB3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHEAfgDWcQB+AM9zcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHQAAmlvcQB+AM9zcQB+ALxxAH4A9HEAfgIrc3EAfgC8dAAGRXF1YWxzcQB+AitzcQB+ALx0AANUT0tzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIdAADUENGc3EAfgDIdAAJVG9rZW5pemVycQB+AM9zcQB+ALxxAH4Av3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHEAfgDNcQB+AM9zcQB+ALxxAH4A0XEAfgIrcHBzcQB+AI5xAH4Am3VxAH4AnAAAAABzcQB+AJ4AdAAVUENGLlRva2VuaXplci5USEVOVE9LdXEAfgChAAAAAHEAfgCldXEAfgCnAAAAAHNxAH4AqQFxAH4AsXBzcQB+AKkBc3EAfgCzc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AjAAAAABwc3EAfgCpAXVxAH4AugAAAAdzcQB+ALxxAH4A53NxAH4AwHNxAH4Aw3VxAH4AxgAAAAJzcQB+AMhxAH4A1nEAfgDPc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMh0AAJpb3EAfgDPc3EAfgC8cQB+APRxAH4CWXNxAH4AvHQABkVxdWFsc3EAfgJZc3EAfgC8dAADVE9Lc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHQAA1BDRnNxAH4AyHQACVRva2VuaXplcnEAfgDPc3EAfgC8cQB+AL9zcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIcQB+AMtzcQB+AMhxAH4AzXEAfgDPc3EAfgC8cQB+ANFxAH4CWXBwc3EAfgCOcQB+AJt1cQB+AJwAAAAAc3EAfgCeAHQAFVBDRi5Ub2tlbml6ZXIuRUxTRVRPS3VxAH4AoQAAAABxAH4ApXVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3NxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+ALoAAAAHc3EAfgC8cQB+AOdzcQB+AMBzcQB+AMN1cQB+AMYAAAACc3EAfgDIcQB+ANZxAH4Az3NxAH4AvHEAfgDnc3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIdAACaW9xAH4Az3NxAH4AvHEAfgD0cQB+AodzcQB+ALx0AAZFcXVhbHNxAH4Ch3NxAH4AvHQAA1RPS3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMh0AANQQ0ZzcQB+AMh0AAlUb2tlbml6ZXJxAH4Az3NxAH4AvHEAfgC/c3EAfgDAc3EAfgDDdXEAfgDGAAAAA3NxAH4AyHEAfgDLc3EAfgDIcQB+AM1xAH4Az3NxAH4AvHEAfgDRcQB+AodwcHNxAH4AjnEAfgCbdXEAfgCcAAAAAHNxAH4AngB0ABRQQ0YuVG9rZW5pemVyLkZVTlRPS3VxAH4AoQAAAABxAH4ApXVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3N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
+external apis:
+0 items
+source infos:
+3 items
+/Users/nperez/IdeaProjects/PCF/src/main/scala/App.scala -> 
+AAAAAAAAAAA=
+/Users/nperez/IdeaProjects/PCF/src/main/scala/ForwardOperator.scala -> 
+AAAAAAAAAAA=
+/Users/nperez/IdeaProjects/PCF/src/main/scala/Tokens.scala -> 
+AAAAAQAAAQAAAEwAQCAgICAgIGRlZiBza2lwTGluZSh4OiBMaXN0W0NoYXJdKTogKFRPSywgTGlzdFtDaGFyXSkgPSB4IG1hdGNoIHsBAAAJRQEAAAA3AQA3ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAEAOi9Vc2Vycy9ucGVyZXovSWRlYVByb2plY3RzL1BDRi9zcmMvbWFpbi9zY2FsYS9Ub2tlbnMuc2NhbGEBADovVXNlcnMvbnBlcmV6L0lkZWFQcm9qZWN0cy9QQ0Yvc3JjL21haW4vc2NhbGEvVG9rZW5zLnNjYWxhAEZtYXRjaCBtYXkgbm90IGJlIGV4aGF1c3RpdmUuCkl0IHdvdWxkIGZhaWwgb24gdGhlIGZvbGxvd2luZyBpbnB1dDogTmlsAQAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUO9u/tt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ucGVyZXovSWRlYVByb2plY3RzL1BDRi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUO+vuqh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ucGVyZXovSWRlYVByb2plY3RzL1BDRi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUO+zS4t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ucGVyZXovSWRlYVByb2plY3RzL1BDRi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUO+0zVR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ucGVyZXovSWRlYVByb2plY3RzL1BDRi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

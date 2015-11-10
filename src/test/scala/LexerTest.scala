@@ -74,7 +74,7 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     val tokens = Lexer.lexerStr(sourceCode)
 
-    tokens should be (List(ISZERO(), NUMTOK(0), EOF()))
+    tokens should be (List(ISZEROTOK(), NUMTOK(0), EOF()))
   }
 
   it should "return IFTOK when if else then" in {

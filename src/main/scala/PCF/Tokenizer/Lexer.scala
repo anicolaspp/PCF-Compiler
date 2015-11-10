@@ -20,7 +20,7 @@ object Lexer {
     case "false"  =>  FALSETOK()
     case "succ"   =>  SUCCTOK()
     case "pred"   =>  PREDTOK()
-    case "iszero" =>  ISZERO()
+    case "iszero" =>  ISZEROTOK()
     case "if"     =>  IFTOK()
     case "then"   =>  THENTOK()
     case "else"   =>  ELSETOK()

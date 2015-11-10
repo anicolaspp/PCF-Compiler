@@ -12,7 +12,7 @@ case class TRUETOK()extends TOK
 case class FALSETOK()extends TOK
 case class SUCCTOK()extends TOK
 case class PREDTOK()extends TOK
-case class ISZERO()extends TOK
+case class ISZEROTOK()extends TOK
 case class IFTOK()extends TOK
 case class THENTOK()extends TOK
 case class ELSETOK()extends TOK

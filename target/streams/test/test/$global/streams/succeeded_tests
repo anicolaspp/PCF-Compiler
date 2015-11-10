@@ -1,3 +1,5 @@
 #Successful Tests
-#Tue Nov 10 09:17:11 EST 2015
-PCF.Tests.LexerTest=1447165031183
+#Tue Nov 10 10:23:25 EST 2015
+PCF.Tests.ParserTest=1447168630886
+PCF.Tests.LexerTest=1447169005109
+PCF.Tests.BasicParserTest=1447169005108

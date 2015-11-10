@@ -1,29 +1,175 @@
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.TOK source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.TOK: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.TOK.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.FALSETOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.FALSETOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.FALSETOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.ELSETOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.ELSETOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.ELSETOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.NUMTOK source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.NUMTOK: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.NUMTOK.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.IDTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.IDTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.IDTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.RECTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.RECTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.RECTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.RPARENT$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.RPARENT$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.RPARENT$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.LETTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.LETTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.LETTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.IFTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.IFTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.IFTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.NUMTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.NUMTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.NUMTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.EQUALTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.EQUALTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.EQUALTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.PREDTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.PREDTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.PREDTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.ISZERO$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	PREDTOK, notify, IFTOK, ISZERO, SUCCTOK, wait, $asInstanceOf, productArity, equals, NUMTOK, LPARENTOK, asInstanceOf, synchronized, EQUALTOK, THENTOK, $isInstanceOf, canEqual, FUNTOK, productPrefix, notifyAll, IDTOK, isInstanceOf, FALSETOK, LETTOK, <init>, id, TRUETOK, EOF, ==, clone, RPARENT, RECTOK, copy, toString, !=, getClass, copy$default$1, ELSETOK, ne, TOK, INTOK, value, eq, productIterator, ARROWTOK, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.ISZERO$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.ISZERO$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(NUMTOK, asInstanceOf, IDTOK, isInstanceOf, <init>, id, TOK, value)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.TRUETOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.TRUETOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.TRUETOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.FUNTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.FUNTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.FUNTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.EOF source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.EOF: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.EOF.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.EOF$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.EOF$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.EOF$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.SUCCTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.SUCCTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.SUCCTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.LPARENTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.LPARENTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.LPARENTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.IDTOK source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.IDTOK: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.IDTOK.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0mThe PCF.Tokenizer.THENTOK$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) PCF.Tokenizer.THENTOK$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) PCF.Tokenizer.THENTOK$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala: Set(asInstanceOf, isInstanceOf, <init>)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
 [0m[[0mdebug[0m] [0m	modified: Set(/Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(PCF.Tokenizer.TOK,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.FALSETOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.ELSETOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.NUMTOK,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.IDTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.RECTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.RPARENT$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.LETTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.IFTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.NUMTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.EQUALTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.PREDTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.ISZERO$,ModifiedNames(regularNames = PREDTOK, notify, IFTOK, ISZERO, SUCCTOK, wait, $asInstanceOf, productArity, equals, NUMTOK, LPARENTOK, asInstanceOf, synchronized, EQUALTOK, THENTOK, $isInstanceOf, canEqual, FUNTOK, productPrefix, notifyAll, IDTOK, isInstanceOf, FALSETOK, LETTOK, <init>, id, TRUETOK, EOF, ==, clone, RPARENT, RECTOK, copy, toString, !=, getClass, copy$default$1, ELSETOK, ne, TOK, INTOK, value, eq, productIterator, ARROWTOK, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.TRUETOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.FUNTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.EOF,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.EOF$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.SUCCTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.LPARENTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.IDTOK,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(PCF.Tokenizer.THENTOK$,ModifiedNames(regularNames = notify, ISZERO, ISZEROTOK, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, copy, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )))[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
 [0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set(/Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala)[0m
 [0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/nperez/IdeaProjects/PCF/src/test/scala/LexerTest.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/nperez/IdeaProjects/PCF/target/scala-2.11/test-classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 54f476a8, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1981ecc7, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes:/Users/nperez/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/nperez/IdeaProjects/PCF/target/scala-2.11/test-classes:/Users/nperez/IdeaProjects/PCF/target/scala-2.11/classes:/Users/nperez/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/Users/nperez/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/Users/nperez/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.791687171 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.666509465 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

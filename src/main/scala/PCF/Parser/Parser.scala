@@ -23,6 +23,8 @@ package PCF.Parser
 // We resolve the ambiguity in the grammar by making concatenation
 // (i.e. function application) bind tighter than if, fun, rec, and let.
 
+import PCF.Pipes.IPipe._
+import PCF.Tokenizer._
 
 abstract class TERM()
 
@@ -41,6 +43,16 @@ case class ERROR(reason: String) extends TERM
 
 
 
-class Parser {
+object Parser {
 
+  private def parseExpression(toks: List[TOK]): (TERM, List[TOK]) = ???
+
+  private def parse(toks: List[TOK]) = parseExpression(toks) match {
+    case (ERROR(s), _)              =>  ERROR(s)
+    case (term, EOF()::leftToks)    =>  term
+    case (term, tok::toks1)         =>  ERROR("EOF expected, found: " + tok)
+    case (term, Nil)                =>  ERROR("Lexer error: missing EOF token")
+  }
+
+  def parseStr(sourceCode: String) = sourceCode |> Lexer.lexerStr |> parse
 }

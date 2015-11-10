@@ -37,7 +37,7 @@ object Lexer {
   }
 
   private def getNum(num: Int, l: List[Char]): (TOK, List[Char]) = l match {
-    case c :: cs if isDigit(c)    =>  getNum(10*num + c.toInt - 0, cs)
+    case c :: cs if isDigit(c)    =>  getNum(10*num + c.toInt, cs)
     case cs                       =>  (NUMTOK(num), cs)
   }
 
@@ -45,7 +45,7 @@ object Lexer {
     case Nil => (EOF(), List())
     case c :: cs if isWhite(c) => getTok(cs)
     case c :: cs if isAlpha(c) => getId(c.toString, cs)
-    case c :: cs if isDigit(c) => getNum(c.toInt - 0, cs)
+    case c :: cs if isDigit(c) => getNum(c.toString.toInt, cs)
     case '(' :: cs => (LPARENTOK(), cs)
     case ')' :: cs => (RPARENT(), cs)
     case '=' :: cs => (EQUALTOK(), cs)

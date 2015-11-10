@@ -4,7 +4,7 @@
 		module="pcf$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151109212201"
+		publication="20151110072641"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

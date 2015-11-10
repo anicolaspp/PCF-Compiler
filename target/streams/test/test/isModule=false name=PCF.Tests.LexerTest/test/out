@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mLexerTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mLexer[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return no tokens with empty source code[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return IDTOKEN with ID Name[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return NUNTOK with value[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return TRUETOK when true[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return FALSETOK when false[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return SUCCTOK with succ[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return PREDTOK with pred[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return ISZERO with iszero[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return IFTOK when if else then[0m[0m

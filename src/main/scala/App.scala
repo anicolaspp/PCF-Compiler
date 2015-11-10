@@ -7,7 +7,7 @@ import PCF.Tokenizer.Lexer
 
 object App {
   def main(args: Array[String]) {
-    val source = "let x = 5"
+    val source = "5"
 
     Lexer.lexerStr(source).map(println)
   }

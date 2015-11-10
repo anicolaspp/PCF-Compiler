@@ -90,7 +90,7 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     val tokens = Lexer.lexerStr(sourceCode)
 
-    tokens should be (List(FUNTOK(), IDTOK("x"), EQUALTOK(), IDTOK("y"), EOF()))
+    tokens should be (List(FUNTOK(), IDTOK("x"), ARROWTOK(), IDTOK("y"), EOF()))
   }
 
   it should "return RECTOK when rec" in {
@@ -98,7 +98,7 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     val tokens = Lexer.lexerStr(sourceCode)
 
-    tokens should be (List(RECTOK(), IDTOK("x"), EQUALTOK(), IDTOK("x"), EOF()))
+    tokens should be (List(RECTOK(), IDTOK("x"), ARROWTOK(), IDTOK("x"), EOF()))
   }
 
   it should "return L-R PARENTOK when (...)" in {
@@ -130,6 +130,6 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     val tokens = Lexer.lexerStr(sourceCode)
 
-    tokens should be (List(RECTOK(), IDTOK("x"), EQUALTOK(), IDTOK("x"), SUCCTOK(), NUMTOK(5) ,EOF()))
+    tokens should be (List(RECTOK(), IDTOK("x"), ARROWTOK(), IDTOK("x"), SUCCTOK(), NUMTOK(5) ,EOF()))
   }
 }

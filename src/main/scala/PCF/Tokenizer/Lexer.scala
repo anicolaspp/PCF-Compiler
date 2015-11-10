@@ -43,14 +43,14 @@ object Lexer {
 
   private def getTok(l: List[Char]): (TOK, List[Char]) = l match {
     case Nil => (EOF(), List())
-    case c :: cs if isWhite(c) => getTok(cs)
-    case c :: cs if isAlpha(c) => getId(c.toString, cs)
-    case c :: cs if isDigit(c) => getNum(c.toString.toInt, cs)
-    case '(' :: cs => (LPARENTOK(), cs)
-    case ')' :: cs => (RPARENT(), cs)
-    case '=' :: cs => (EQUALTOK(), cs)
-    case '-' :: cs => (EQUALTOK(), cs)
-    case '#' :: cs =>
+    case c :: cs if isWhite(c)  => getTok(cs)
+    case c :: cs if isAlpha(c)  => getId(c.toString, cs)
+    case c :: cs if isDigit(c)  => getNum(c.toString.toInt, cs)
+    case '(' :: cs              => (LPARENTOK(), cs)
+    case ')' :: cs              => (RPARENT(), cs)
+    case '=' :: cs              => (EQUALTOK(), cs)
+    case '-' :: '>' :: cs       => (ARROWTOK(), cs)
+    case '#' :: cs              =>
       def skipLine(x: List[Char]): (TOK, List[Char]) = x match {
         case Nil => (EOF(), List())
         case '\n' :: cs1 => getTok(cs1)

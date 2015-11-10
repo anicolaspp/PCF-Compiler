@@ -28,14 +28,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.47415185">
       <split-first>
         <leaf>
-          <file leaf-file-name="Parser.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Parser.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Parser/Parser.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.83980584">
-                  <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#64#87#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Lexer.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.44660193">
+                  <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -72,8 +84,8 @@
           <file leaf-file-name="FUNParserTest.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/FUNParserTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6553398">
-                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6262136">
+                  <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#62#85#0" expanded="true" />
@@ -108,7 +120,6 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/PCF/Parser/AST.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Tokens.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/LexerTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/App.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ParserTest.scala" />
@@ -117,9 +128,10 @@
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/LexerTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/ParserTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/PARPaserTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/RECParserTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/FUNParserTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/PCF/Parser/Parser.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/PCF/Tests/RECParserTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala" />
       </list>
     </option>
   </component>
@@ -780,12 +792,12 @@
       <created>1447122111803</created>
       <option name="number" value="Default" />
       <updated>1447122111803</updated>
-      <workItem from="1447122113003" duration="28421000" />
+      <workItem from="1447122113003" duration="29665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28421000" />
+    <option name="totallyTimeSpent" value="29665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1849" y="-23" width="2014" height="1150" extended-state="0" />
@@ -888,16 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/IFPaserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13106796">
@@ -940,17 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Parser/Parser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83980584">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#64#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/RECParserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6262136">
@@ -963,11 +954,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/PCF/Tests/FUNParserTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6553398">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6262136">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Parser/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#64#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PCF/Tokenizer/Lexer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44660193">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

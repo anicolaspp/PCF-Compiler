@@ -57,7 +57,7 @@ object Lexer {
         case _ :: cs1 => skipLine(cs1)
       }
       skipLine(cs)
-    case c :: cs => {
+    case c :: cs                => {
       println("Skipping illegal character: " + c)
       getTok(cs)
     }

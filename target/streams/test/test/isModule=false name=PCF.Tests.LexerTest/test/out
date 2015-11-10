@@ -13,3 +13,5 @@
 [0m[[0minfo[0m] [0m[32m- should return RECTOK when rec[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return L-R PARENTOK when (...)[0m[0m
 [0m[[0minfo[0m] [0m[32m- should LET when asign[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not return a non-token[0m[0m
+[0m[[0minfo[0m] [0m[32m- should igone commented line[0m[0m

@@ -118,4 +118,20 @@ class LexerTest extends FlatSpec with ShouldMatchers {
 
     tokens should be (List(LETTOK(), IDTOK("x"), EQUALTOK(), NUMTOK(5), EOF()))
   }
+
+  it should "not return a non-token" in {
+    val sourceCode = "let x = fun y -> if (a) then ((b)) else c"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens.foreach(t => t.isInstanceOf[TOK] should be (true))
+  }
+
+  it should "igone commented line" in {
+    val sourceCode = "rec x -> x\n#as;lkdfja;sldfkas\nsucc 5"
+
+    val tokens = Lexer.lexerStr(sourceCode)
+
+    tokens should be (List(RECTOK(), IDTOK("x"), EQUALTOK(), IDTOK("x"), SUCCTOK(), NUMTOK(5) ,EOF()))
+  }
 }

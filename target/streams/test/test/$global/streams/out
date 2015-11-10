@@ -1,14 +1,14 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LexerTest, org.scalatest.tools.Framework$$anon$1@721cd78d, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.BasicParserTest, org.scalatest.tools.Framework$$anon$1@721cd78d, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.FUNParserTest, org.scalatest.tools.Framework$$anon$1@721cd78d, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.IFPaserTest, org.scalatest.tools.Framework$$anon$1@721cd78d, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 164 milliseconds.[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.FUNParserTest, org.scalatest.tools.Framework$$anon$1@6c1a3f3f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.BasicParserTest, org.scalatest.tools.Framework$$anon$1@6c1a3f3f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.IFPaserTest, org.scalatest.tools.Framework$$anon$1@6c1a3f3f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LexerTest, org.scalatest.tools.Framework$$anon$1@6c1a3f3f, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 181 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 31[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 4, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 31, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	PCF.Tests.LexerTest[0m
 [0m[[0mdebug[0m] [0m	PCF.Tests.BasicParserTest[0m
+[0m[[0mdebug[0m] [0m	PCF.Tests.LexerTest[0m
 [0m[[0mdebug[0m] [0m	PCF.Tests.IFPaserTest[0m
 [0m[[0mdebug[0m] [0m	PCF.Tests.FUNParserTest[0m

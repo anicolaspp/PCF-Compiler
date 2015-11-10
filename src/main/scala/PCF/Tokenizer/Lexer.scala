@@ -52,7 +52,7 @@ object Lexer {
     case '-' :: cs => (EQUALTOK(), cs)
     case '#' :: cs =>
       def skipLine(x: List[Char]): (TOK, List[Char]) = x match {
-        case null => (EOF(), List())
+        case Nil => (EOF(), List())
         case '\n' :: cs1 => getTok(cs1)
         case _ :: cs1 => skipLine(cs1)
       }

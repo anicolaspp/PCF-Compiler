@@ -10,10 +10,7 @@ package PCF.Pipes
 
 
 class Pipe[T](a: T) {
-  def |>[B](f: T => B) = {
-    f(a)
-  }
-  def |>() = {}
+  def |>[B](f: T => B) = f(a)
 }
 
 object IPipe {

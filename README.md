@@ -1,5 +1,6 @@
 # PCF-Compiler
-A compiler for PCF (Programming Language for Computable Functions) Ported from F# to Scala
+A compiler for PCF (Programming Language for Computable Functions) Ported from F# to Scala.
+
 PCF is functional and Turing Complete!
 
 - More details about the language can be found [here](http://www.springer.com/cda/content/document/cda_downloaddocument/9780857290755-c2.pdf?SGWID=0-0-45-1052237-p174031776)

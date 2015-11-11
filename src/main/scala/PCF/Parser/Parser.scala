@@ -111,5 +111,7 @@ object Parser {
   }
 
   def parseStr(sourceCode: String) = sourceCode |> Lexer.lexerStr |> parse
+
+  def parseFile(fileName: String) = scala.io.Source.fromFile(fileName ).mkString |> parseStr
 }
 

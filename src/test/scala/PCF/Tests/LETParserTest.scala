@@ -4,7 +4,7 @@
 
 package PCF.Tests
 
-import PCF.Parser.AST.{ID, FUNC, APP, ERROR}
+import PCF.Parser.AST._
 import PCF.Parser.Parser
 import org.scalatest.{ShouldMatchers, FlatSpec}
 
@@ -56,4 +56,14 @@ class LETParserTest extends FlatSpec with ShouldMatchers {
 
     ast should be (ERROR("LET requires variable definition"))
   }
+
+  it should "parser recursively" in {
+    val sourceCode = "\nlet\n  twice = fun f -> fun x -> f (f x)\nin\n  twice twice twice twice succ 0"
+
+    val ast = Parser.parseStr(sourceCode)
+
+    ast should be (APP(FUNC("twice",APP(ID("twice"),APP(ID("twice"),APP(ID("twice"),APP(ID("twice"),APP(SUCC(),NUM(0))))))),FUNC("f",FUNC("x",APP(ID("f"),APP(ID("f"),ID("x")))))))
+  }
+
+
 }

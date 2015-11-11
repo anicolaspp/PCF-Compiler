@@ -1,14 +1,14 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LexerTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.BasicParserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.FUNParserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.PARPaserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.RECParserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.IFPaserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LETParserTest, org.scalatest.tools.Framework$$anon$1@7e5e2d4e, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 189 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 46[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.IFPaserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.FUNParserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LETParserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.RECParserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.BasicParserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.PARPaserTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PCF.Tests.LexerTest, org.scalatest.tools.Framework$$anon$1@4ce547dc, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 359 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 47[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 7, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 46, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 47, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	PCF.Tests.RECParserTest[0m

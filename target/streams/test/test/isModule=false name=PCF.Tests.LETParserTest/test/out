@@ -6,3 +6,4 @@
 [0m[[0minfo[0m] [0m[32m- should return ERROR when inner expression cannot be parsed[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return ERROR when '=' is missing[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return ERROR when varialble is missing[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parser recursively[0m[0m

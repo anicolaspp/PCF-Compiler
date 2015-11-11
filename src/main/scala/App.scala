@@ -8,7 +8,7 @@ import PCF.Tokenizer.Lexer
 
 object App {
   def main(args: Array[String]) {
-    val source = "fun x -> "
+    val source = "suc suc suc 5"
 
    val ast = Parser.parseStr(source)
 

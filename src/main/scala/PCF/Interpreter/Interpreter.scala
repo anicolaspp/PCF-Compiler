@@ -10,7 +10,11 @@ object Interpreter {
 
   def eval(ast: TERM): TERM = ast match {
 
-    case IF(a,b,c)  => IF(a,b,c)
+    case IF(guard,thenExp,elseExp)  => (eval(guard), thenExp, elseExp) match{
+      case (BOOL(true), e1, _)  =>  eval(e1)
+      case (BOOL(false), _, e2) =>  eval(e2)
+      case (_,_,_)              =>  ERROR("IF requires BOOL guard")
+    }
 
 
     case APP(func, e) => (eval(func), eval(e)) match {

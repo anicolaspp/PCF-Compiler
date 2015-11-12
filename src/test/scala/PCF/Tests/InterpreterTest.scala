@@ -89,4 +89,29 @@ class InterpreterTest extends FlatSpec with ShouldMatchers {
 
     Interpreter.eval(ast) should be (ERROR())
   }
+
+  it should "return NUM(5) when IF guard is BOOL(true)" in {
+    val ast = IF(BOOL(true), NUM(5), ID("x"))
+
+    Interpreter.eval(ast) should be (NUM(5))
+  }
+
+  it should "return NUM(6) when IF guard is BOOL(false)" in {
+    val ast = IF(BOOL(false), NUM(5), NUM(6))
+
+    Interpreter.eval(ast) should be (NUM(6))
+  }
+
+  it should "return ERROR en IF guard is not BOOL" in {
+    val ast = IF(NUM(5), ID("x"), ID("x"))
+
+    Interpreter.eval(ast) should be (ERROR("IF requires BOOL guard"))
+  }
+
+  it should "recursively eval expression on IF" in {
+
+    Interpreter.eval(IF(BOOL(false), NUM(0), APP(PRED(), NUM(5)))) should be (NUM(4))
+    Interpreter.eval(IF(BOOL(true), APP(PRED(), NUM(5)), NUM(0))) should be (NUM(4))
+  }
 }
+

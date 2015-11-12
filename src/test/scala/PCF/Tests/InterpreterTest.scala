@@ -59,4 +59,22 @@ class InterpreterTest extends FlatSpec with ShouldMatchers {
 
     Interpreter.eval(ast) should be (ERROR("PRED expects a NUM"))
   }
+
+  it should "return NUM(0) when apply PRED NUM(0)" in {
+    val ast = APP(PRED(), NUM(0))
+
+    Interpreter.eval(ast) should be (NUM(0))
+  }
+
+  it should "return BOOL(true) when apply ISZERO NUM(0)" in {
+    val ast = APP(ISZERO(), NUM(0))
+
+    Interpreter.eval(ast) should be (BOOL(true))
+  }
+
+  it should "return BOOL(false) when apply ISZERO NUM(1)" in {
+    val ast = APP(ISZERO(), NUM(1))
+
+    Interpreter.eval(ast) should be (BOOL(false))
+  }
 }

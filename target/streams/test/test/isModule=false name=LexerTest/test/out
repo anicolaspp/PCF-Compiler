@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m[32mLexerTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mLexer[0m[0m
-[0m[[0minfo[0m] [0m[31m- should return no tokens with empty source code *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  List(EOF()) was not equal to List() (LexerTest.scala:17)[0m[0m

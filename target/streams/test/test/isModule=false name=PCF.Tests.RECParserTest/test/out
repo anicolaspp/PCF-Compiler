@@ -1,6 +1,6 @@
-[0m[[0minfo[0m] [0m[32mRECParserTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mParser[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when REC has not body[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return REC TERM when body is present[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when ARROW is missing[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when ID is missing[0m[0m
+[info] RECParserTest:
+[info] Parser
+[info] - should return ERROR when REC has not body
+[info] - should return REC TERM when body is present
+[info] - should return ERROR when ARROW is missing
+[info] - should return ERROR when ID is missing

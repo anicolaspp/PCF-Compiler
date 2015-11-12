@@ -1,9 +1,9 @@
-[0m[[0minfo[0m] [0m[32mIFPaserTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mParser[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when IF (NONTERM)[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when IF does not has THEN[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when IF THEN (NONTERM)[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when IF THEN and missing ELSE[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when IF THEN ELSE (NONTERM)[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return IF THEN ELSE TERM[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR valid guard but nothing else[0m[0m
+[info] IFPaserTest:
+[info] Parser
+[info] - should return ERROR when IF (NONTERM)
+[info] - should return ERROR when IF does not has THEN
+[info] - should return ERROR when IF THEN (NONTERM)
+[info] - should return ERROR when IF THEN and missing ELSE
+[info] - should return ERROR when IF THEN ELSE (NONTERM)
+[info] - should return IF THEN ELSE TERM
+[info] - should return ERROR valid guard but nothing else

@@ -3,15 +3,18 @@
  */
 
 
+import PCF.Interpreter._
 import PCF.Parser.Parser
 import PCF.Tokenizer.Lexer
 
 object App {
   def main(args: Array[String]) {
-    val source = "suc suc suc 5"
+    val source = "let "
 
    val ast = Parser.parseStr(source)
 
-    println(ast)
+    val result = Interpreter.eval(ast)
+
+    println(result)
   }
 }

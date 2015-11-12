@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#pcf-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#pcf-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53f9a5ed
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e132a89
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,7 +1766,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 903ms :: artifacts dl 37ms
+[debug] :: resolution report :: resolve 783ms :: artifacts dl 29ms
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT compile produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-compile.xml
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT runtime produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-runtime.xml
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT test produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-test.xml
@@ -1780,5 +1780,5 @@
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT docs produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-docs.xml
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT pom produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-pom.xml
 [debug] 	report for default#pcf-build;0.1-SNAPSHOT scala-tool produced in /Users/nperez/IdeaProjects/PCF/project/target/resolution-cache/reports/default-pcf-build-scala-tool.xml
-[debug] 	resolve done (903ms resolve - 37ms download)
+[debug] 	resolve done (783ms resolve - 29ms download)
 [info] Done updating.

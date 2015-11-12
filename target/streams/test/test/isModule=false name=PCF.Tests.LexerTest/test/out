@@ -1,17 +1,17 @@
-[0m[[0minfo[0m] [0m[32mLexerTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mLexer[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return no tokens with empty source code[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return IDTOKEN with ID Name[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return NUNTOK with value[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return TRUETOK when true[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return FALSETOK when false[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return SUCCTOK with succ[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return PREDTOK with pred[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ISZERO with iszero[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return IFTOK when if else then[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return FUNTOK when fun[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return RECTOK when rec[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return L-R PARENTOK when (...)[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return LET when asign[0m[0m
-[0m[[0minfo[0m] [0m[32m- should not return a non-token[0m[0m
-[0m[[0minfo[0m] [0m[32m- should ignore commented line[0m[0m
+[info] LexerTest:
+[info] Lexer
+[info] - should return no tokens with empty source code
+[info] - should return IDTOKEN with ID Name
+[info] - should return NUNTOK with value
+[info] - should return TRUETOK when true
+[info] - should return FALSETOK when false
+[info] - should return SUCCTOK with succ
+[info] - should return PREDTOK with pred
+[info] - should return ISZERO with iszero
+[info] - should return IFTOK when if else then
+[info] - should return FUNTOK when fun
+[info] - should return RECTOK when rec
+[info] - should return L-R PARENTOK when (...)
+[info] - should return LET when asign
+[info] - should not return a non-token
+[info] - should ignore commented line

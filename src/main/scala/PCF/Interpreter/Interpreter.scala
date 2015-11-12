@@ -8,6 +8,16 @@ import PCF.Parser.AST._
 
 object Interpreter {
 
+  private def subst(e: TERM, x: String, t: TERM): TERM = e match {
+    case ID(s) if s == x  =>  t
+    case ID(s) if s != x  =>  ID(s)
+    case IF(cond, e1, e2) =>  IF (subst (cond, x, t), subst (e1, x, t), subst (e2, x, t))
+    case APP(func, s)     =>  APP(subst (func, x, t), subst (s, x, t))
+    case FUNC(s, term)    =>  if (s == x) FUNC(s, term) else FUNC(s, subst (term, x, t))
+    case REC(s, term)     =>  if (s == x) REC(s, term) else REC(s, subst (term, x, t))
+    case any              =>  any
+  }
+
   def eval(ast: TERM): TERM = ast match {
 
     case IF(guard,thenExp,elseExp)  => (eval(guard), thenExp, elseExp) match{
@@ -27,16 +37,14 @@ object Interpreter {
       case (PRED(), _)        => ERROR("PRED expects a NUM")
       case (ISZERO(), NUM(0)) => BOOL(true)
       case (ISZERO(), NUM(n)) => BOOL(false)
+      case (FUNC(v, exp), e2) => eval(subst(exp, v, eval(e2)))
       case (other, _)         => ERROR("Cannot Apply this function")
     }
 
-    case ERROR(reason)=>ERROR(reason)
-    case ISZERO()=>ISZERO()
-    case BOOL(v)  => BOOL(v)
-    case SUCC() => SUCC()
-    case PRED() => PRED()
-    case NUM(v) => NUM(v)
+
+    case REC(name, FUNC(t, exp)) => eval ( FUNC(t, subst(exp, name, ( REC(name, FUNC(t, exp))))))
     case REC(name, _) => ERROR("Expecting FUN body")
     case ID("x") => ERROR("Unbound identifier")
+    case any    => any
   }
 }

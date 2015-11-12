@@ -1,6 +1,0 @@
-[0m[[0minfo[0m] [0m[32mParserTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mParser[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ID TERM case 1[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return NUM TERM case 1.1[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return TRUE TERM case 2[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return FALSE TERM case 3[0m[0m

@@ -1,9 +1,9 @@
-[0m[[0minfo[0m] [0m[32mBasicParserTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mParser[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ID TERM case 1[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return NUM TERM case 1.1[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return TRUE TERM case 2[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return FALSE TERM case 3[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return SUCC TERM case 4[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return PRED TERM case 5[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ISZERO TERM case 6[0m[0m
+[info] BasicParserTest:
+[info] Parser
+[info] - should return ID TERM case 1
+[info] - should return NUM TERM case 1.1
+[info] - should return TRUE TERM case 2
+[info] - should return FALSE TERM case 3
+[info] - should return SUCC TERM case 4
+[info] - should return PRED TERM case 5
+[info] - should return ISZERO TERM case 6

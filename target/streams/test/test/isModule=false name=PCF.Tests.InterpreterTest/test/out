@@ -1,0 +1,19 @@
+[info] InterpreterTest:
+[info] Interpreter
+[info] - should return ERROR when unbound indentifier
+[info] - should return ERROR when REC has not FUN body
+[info] - should return NUM when apply  NUM
+[info] - should return 6 when apply SUCC NUM(5)
+[info] - should return ERROR when apply SUCC to NON NUM
+[info] - should return 5 when apply PRED NUM(6)
+[info] - should return ERROR when apply PRED to NON NUM
+[info] - should return NUM(0) when apply PRED NUM(0)
+[info] - should return BOOL(true) when apply ISZERO NUM(0)
+[info] - should return BOOL(false) when apply ISZERO NUM(1)
+[info] - should return ERROR when APP has not FUN
+[info] - should return ERROR when APP has not arguments
+[info] - should return NUM(5) when IF guard is BOOL(true)
+[info] - should return NUM(6) when IF guard is BOOL(false)
+[info] - should return ERROR en IF guard is not BOOL
+[info] - should recursively eval expressions on IF
+[info] - should apply FUN recursively

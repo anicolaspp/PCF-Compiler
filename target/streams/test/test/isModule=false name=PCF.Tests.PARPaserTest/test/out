@@ -1,5 +1,5 @@
-[0m[[0minfo[0m] [0m[32mPARPaserTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mParser[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when ( NONTERM[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return ERROR when '('TERM but missing ')'[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return Expresion when (Expression)[0m[0m
+[info] PARPaserTest:
+[info] Parser
+[info] - should return ERROR when ( NONTERM
+[info] - should return ERROR when '('TERM but missing ')'
+[info] - should return Expresion when (Expression)

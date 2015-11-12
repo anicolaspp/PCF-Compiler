@@ -10,16 +10,20 @@ object Interpreter {
 
   def eval(ast: TERM): TERM = ast match {
 
+    case IF(a,b,c)  => IF(a,b,c)
+
+
     case APP(func, e) => (eval(func), eval(e)) match {
       case (ERROR(reason), _) => ERROR(reason)
       case (_, ERROR(reason)) => ERROR(reason)
-      case (SUCC(), NUM(x)) => NUM(x + 1)
-      case (SUCC(), _)      => ERROR("SUCC expects a NUM")
-      case (PRED(), NUM(0)) => NUM(0)
-      case (PRED(), NUM(x)) => NUM(x - 1)
-      case (PRED(), _)      => ERROR("PRED expects a NUM")
+      case (SUCC(), NUM(x))   => NUM(x + 1)
+      case (SUCC(), _)        => ERROR("SUCC expects a NUM")
+      case (PRED(), NUM(0))   => NUM(0)
+      case (PRED(), NUM(x))   => NUM(x - 1)
+      case (PRED(), _)        => ERROR("PRED expects a NUM")
       case (ISZERO(), NUM(0)) => BOOL(true)
       case (ISZERO(), NUM(n)) => BOOL(false)
+      case (other, _)         => ERROR("Cannot Apply this function")
     }
 
     case ERROR(reason)=>ERROR(reason)

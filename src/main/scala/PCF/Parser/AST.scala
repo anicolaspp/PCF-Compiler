@@ -19,6 +19,6 @@ case class IF(condition: TERM, Then: TERM, Else: TERM) extends TERM
 case class APP(function: TERM, value: TERM) extends TERM
 case class FUNC(name: String, body: TERM) extends TERM
 case class REC(name: String, body: TERM) extends TERM
-case class ERROR(reason: String) extends RESULT_TERM
+case class ERROR(reason: String = "") extends RESULT_TERM
 
 

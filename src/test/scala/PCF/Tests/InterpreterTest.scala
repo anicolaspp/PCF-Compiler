@@ -77,4 +77,16 @@ class InterpreterTest extends FlatSpec with ShouldMatchers {
 
     Interpreter.eval(ast) should be (BOOL(false))
   }
+
+  it should "return ERROR when APP has not FUN" in {
+    val ast = APP(ERROR(), NUM(1))
+
+    Interpreter.eval(ast) should be (ERROR())
+  }
+
+  it should "return ERROR when APP has not arguments" in {
+    val ast = APP(SUCC(), ERROR())
+
+    Interpreter.eval(ast) should be (ERROR())
+  }
 }

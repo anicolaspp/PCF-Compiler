@@ -1,4 +1,4 @@
-https://travis-ci.org/anicolaspp/PCF-Compiler.svg?branch=master
+[![Build Status](https://travis-ci.org/anicolaspp/PCF-Compiler.svg?branch=master)](https://travis-ci.org/anicolaspp/PCF-Compiler)
 
 # PCF-Compiler
 A compiler for PCF (Programming Language for Computable Functions) ported from F# to Scala.

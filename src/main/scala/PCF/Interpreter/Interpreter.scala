@@ -13,6 +13,7 @@ object Interpreter {
     case APP(func, e) => (eval(func), eval(e)) match {
       case (SUCC(), NUM(x)) => NUM(x + 1)
       case (SUCC(), _)      => ERROR("SUCC expects a NUM")
+      case (PRED(), NUM(0)) => NUM(0)
       case (PRED(), NUM(x)) => NUM(x - 1)
       case (PRED(), _)      => ERROR("PRED expects a NUM")
     }

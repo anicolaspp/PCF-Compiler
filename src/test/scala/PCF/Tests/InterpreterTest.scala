@@ -1,8 +1,13 @@
-package PCF.Tests
-
 /**
  * Created by nperez on 11/11/15.
  */
+
+package PCF.Tests
+
+import PCF.Interpreter.Interpreter
+import PCF.Parser.AST._
+import org.scalatest.{ShouldMatchers, FlatSpec}
+
 class InterpreterTest extends FlatSpec with ShouldMatchers {
   "Interpreter" should "return ERROR when unbound indentifier" in {
 
@@ -37,9 +42,21 @@ class InterpreterTest extends FlatSpec with ShouldMatchers {
     Interpreter.eval(ast) should be (NUM(6))
   }
 
+  it should "return ERROR when apply SUCC to NON NUM" in {
+    val ast = APP(SUCC(), BOOL(true))
+
+    Interpreter.eval(ast) should be (ERROR("SUCC expects a NUM"))
+  }
+
   it should "return 5 when apply PRED NUM(6)" in {
     val ast = APP(PRED(), NUM(6))
 
     Interpreter.eval(ast) should be (NUM(5))
+  }
+
+  it should "return ERROR when apply PRED to NON NUM" in {
+    val ast = APP(PRED(), BOOL(true))
+
+    Interpreter.eval(ast) should be (ERROR("PRED expects a NUM"))
   }
 }

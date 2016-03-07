@@ -37,7 +37,7 @@ object Lexer {
   }
 
   private def getNum(num: Int, l: List[Char]): (TOK, List[Char]) = l match {
-    case c :: cs if isDigit(c)    =>  getNum(10*num + c.toInt, cs)
+    case c :: cs if isDigit(c)    =>  getNum(10*num + c.toString.toInt, cs)
     case cs                       =>  (NUMTOK(num), cs)
   }
 
@@ -50,13 +50,14 @@ object Lexer {
     case ')' :: cs              => (RPARENT(), cs)
     case '=' :: cs              => (EQUALTOK(), cs)
     case '-' :: '>' :: cs       => (ARROWTOK(), cs)
-    case '#' :: cs              =>
+    case '#' :: cs              => {
       def skipLine(x: List[Char]): (TOK, List[Char]) = x match {
         case Nil => (EOF(), List())
         case '\n' :: cs1 => getTok(cs1)
         case _ :: cs1 => skipLine(cs1)
       }
       skipLine(cs)
+    }
     case c :: cs                => {
       println("Skipping illegal character: " + c)
       getTok(cs)
@@ -68,6 +69,7 @@ object Lexer {
       case (EOF(), cs) => (EOF() :: toks).reverse
       case (tok, cs) => getToks(tok :: toks, cs)
     }
+
     getToks(List(), cs)
   }
 

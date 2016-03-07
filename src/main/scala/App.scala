@@ -9,7 +9,8 @@ import PCF.Tokenizer.Lexer
 
 object App {
   def main(args: Array[String]) {
-    val source = "let "
+    val source = "let s = 5 0 in rec i -> " +
+      "func x -> fun y -> if iszero y then x else i (succ x) (pred y)"
 
    val ast = Parser.parseStr(source)
 
